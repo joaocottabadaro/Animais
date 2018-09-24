@@ -10,7 +10,11 @@ package animais;
  * @author ice
  */
 public class Cachorro extends Animal{
+    String Nome ;
+    int idade;
 
+    
+    
     /**
      *
      */
@@ -19,5 +23,5 @@ public class Cachorro extends Animal{
             
     {
         super.emitirSom();
-        System.out.println(" Vou dormir agora");}
+        System.out.println(" ao ao");}
 }
